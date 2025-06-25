@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Manjit Singh – Digital Card</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brandGray: '#d7d7d7',
+            iconGray: '#e9e9e9',
+            textDark: '#141414',
+            btnDark: '#1e1e1e'
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    html { font-family: 'Inter', system-ui, sans-serif; }
+    .small { font-size: 12px; color: #6b6b6b; line-height: 1.1; }
+  </style>
+</head>
+
+<body class="bg-brandGray min-h-screen flex items-center justify-center px-4">
+  <article class="max-w-sm w-full bg-white border border-gray-300 rounded-2xl shadow-lg overflow-hidden">
+    <!-- Header -->
+<header class="relative pb-16 pt-4">
+<img src="logoh.jpg" alt="Royal LePage Metro"
+     class="w-full h-28 object-contain object-left-top bg-white mt-4" />
+
+<img src="IMG_1403.jpg" alt="Manjit Singh"
+     class="absolute -bottom-12 left-6 w-24 h-24 rounded-full object-cover ring-4 ring-white shadow-lg" />
+
+<div class="absolute top-[10rem] right-6 bg-white shadow-md rounded-xl p-3">
+  <img src="hexanestwhite.png" alt="HexaNest Realty" class="h-14 w-auto" />
+</div>
+</header>
+
+
+    <!-- Content -->
+    <section class="pt-16 px-6 pb-8">
+      <h1 class="text-2xl font-semibold text-textDark">Manjit Singh</h1>
+      <p class="uppercase tracking-wide text-sm text-gray-700 mt-1">Realtor<sup>®</sup></p>
+
+      <ul class="mt-6 space-y-5 text-[15px] text-textDark">
+        <!-- Email -->
+        <li class="flex items-start gap-4">
+          <span class="flex-none w-9 h-9 bg-iconGray rounded-full flex items-center justify-center">
+            <svg class="w-5 h-5 text-gray-700" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M2 4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v2L12 13 2 6V4zm0 4.236 10 6 10-6V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8.236z"/>
+            </svg>
+          </span>
+          <div>
+            <a href="mailto:Manjit.Singh@royallepage.ca" class="hover:underline break-all">Manjit.Singh@royallepage.ca</a>
+            <div class="small">Work</div>
+          </div>
+        </li>
+
+        <!-- Primary Phone -->
+        <li class="flex items-start gap-4">
+          <span class="flex-none w-9 h-9 bg-iconGray rounded-full flex items-center justify-center">
+            <svg class="w-5 h-5 text-gray-700" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1-.24 13.1 13.1 0 0 0 3.59.57 1 1 0 0 1 1 1v3.5a1 1 0 0 1-1 1C11.16 22 2 12.84 2 2.5a1 1 0 0 1 1-1H6.5a1 1 0 0 1 1 1c0 1.26.2 2.47.57 3.59a1 1 0 0 1-.25 1l-2.2 2.2z"/>
+            </svg>
+          </span>
+          <div>
+            <a href="tel:+15874293092" class="hover:underline">+1 (587) 429-3092</a>
+            <div class="small">Work</div>
+          </div>
+        </li>
+
+        <!-- Alternate Phone -->
+        <li class="flex items-start gap-4">
+          <span class="flex-none w-9 h-9 bg-iconGray rounded-full flex items-center justify-center">
+            <svg class="w-5 h-5 text-gray-700" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M3 3h18v2H3V3zm0 14h18v2H3v-2zm0-7h18v2H3v-2z"/>
+            </svg>
+          </span>
+          <div>
+            <a href="tel:+16477216591" class="hover:underline">+1 (647) 721-6591</a>
+            <div class="small">Work</div>
+          </div>
+        </li>
+
+        <!-- Address -->
+        <li class="flex items-start gap-4 mt-6">
+  <span class="flex-none w-9 h-9 bg-iconGray rounded-full flex items-center justify-center">
+    <svg class="w-5 h-5 text-gray-700" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/>
+    </svg>
+  </span>
+  <a href="https://maps.google.com/?q=Unit 102, 35 McTavish Place NE, Calgary, AB T2E 7J7" target="_blank" class="hover:underline">
+    Unit 102, 35 McTavish Place NE<br />
+    Calgary, AB T2E 7J7, Canada
+  </a>
+</li>
+
+        <!-- Instagram Icon -->
+        <li class="flex justify-center gap-6 mt-6">
+  <!-- Instagram -->
+  <a href="https://instagram.com/manjitsinghrealtor" target="_blank" class="hover:opacity-75">
+    <span class="w-9 h-9 bg-iconGray rounded-full flex items-center justify-center">
+      <svg class="w-5 h-5 text-gray-700" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 2.243 5 5 5h10c2.757 0 5-2.243 5-5V7c0-2.757-2.243-5-5-5H7zm10 2a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h10zm-5 3a5 5 0 1 0 .001 9.999A5 5 0 0 0 12 7zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm4.5-3a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+      </svg>
+    </span>
+  </a>
+
+  <!-- Linktree -->
+  <a href="https://linktr.ee/Hexanestrealty" target="_blank" class="hover:opacity-75">
+    <span class="w-9 h-9 bg-iconGray rounded-full flex items-center justify-center">
+      <svg class="w-5 h-5 text-gray-700" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12 2a1 1 0 0 1 .894.553l5 10a1 1 0 0 1-.053.987l-5 8a1 1 0 0 1-1.682 0l-5-8a1 1 0 0 1-.053-.987l5-10A1 1 0 0 1 12 2zm0 3.618L8.618 12H11v6.382L15.382 12H13V5.618z"/>
+      </svg>
+    </span>
+  </a>
+</li>
+
+
+      </ul>
+
+      <!-- Save Button -->
+      <button id="saveBtn"
+        class="mt-8 w-full py-3 bg-btnDark hover:bg-black active:scale-95 transition text-white rounded-full text-lg font-medium shadow-md">
+        Save Contact
+      </button>
+    </section>
+  </article>
+
+  <script>
+    async function saveNative(card){
+      if('contacts' in navigator && 'ContactsManager' in window){
+        try{await navigator.contacts.save([card]);return true}catch{}
+      }
+      return false;
+    }
+
+    function downloadVCF(){
+      const vcf = `BEGIN:VCARD
+VERSION:3.0
+N:Singh;Manjit;;;
+FN:Manjit Singh
+ORG:HexaNest Realty Inc.
+TITLE:Realtor
+TEL;TYPE=CELL:+1-587-429-3092
+TEL;TYPE=CELL:+1-403-123-4567
+EMAIL;TYPE=INTERNET:Manjit.Singh@royallepage.ca
+ADR;TYPE=WORK:;;Unit 102\\, 35 McTavish Pl NE;Calgary;AB;T2E 7J7;Canada
+URL:https://hexanestrealty.ca
+END:VCARD`;
+      const blob = new Blob([vcf], { type: 'text/vcard' });
+      const url = URL.createObjectURL(blob);
+      const a = Object.assign(document.createElement('a'), { href: url, download: 'Manjit_Singh.vcf' });
+      document.body.append(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+    }
+
+    document.getElementById('saveBtn').addEventListener('click', async () => {
+      const card = {
+        name: ["Manjit Singh"],
+        tel: ["+15874293092", "+16477216591"],
+        email: ["Manjit.Singh@royallepage.ca"],
+        address: ["Unit 102, 35 McTavish Pl NE, Calgary AB"],
+        url: ["https://hexanestrealty.ca"]
+      };
+      if (!await saveNative(card)) downloadVCF();
+    });
+  </script>
+</body>
+</html>
