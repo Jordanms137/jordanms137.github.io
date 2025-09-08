@@ -86,7 +86,21 @@
             <div class="small">Mobile</div>
           </div>
         </li>
-
+ <!-- website -->
+        <li class="flex items-start gap-4">
+          <span class="flex-none w-9 h-9 bg-iconGray rounded-full flex items-center justify-center">
+            <!-- Globe icon -->
+            <svg class="w-5 h-5 text-gray-700" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm7.93 9h-3.13a15.7 15.7 0 0 0-1.05-5.01A8.02 8.02 0 0 1 19.93 11zM12 4c.94 0 2.38 2.07 2.93 7H9.07C9.62 6.07 11.06 4 12 4zM8.25 5.99A15.7 15.7 0 0 0 7.2 11H4.07a8.02 8.02 0 0 1 4.18-5.01zM4.07 13H7.2c.22 1.75.65 3.47 1.05 5.01A8.02 8.02 0 0 1 4.07 13zM12 20c-.94 0-2.38-2.07-2.93-7h5.86C14.38 17.93 12.94 20 12 20zm3.75-1.99c.4-1.54.83-3.26 1.05-5.01h3.13a8.02 8.02 0 0 1-4.18 5.01z"/>
+            </svg>
+          </span>
+          <div>
+            <a href="https://manjit-singh.royallepage.ca/" target="_blank" rel="noopener" class="hover:underline break-all">
+              Manjit-Singh.royallepage.ca
+            </a>
+            <div class="small">Website</div>
+          </div>
+        </li>
         <!-- Address -->
         <li class="flex items-start gap-4 mt-6">
   <span class="flex-none w-9 h-9 bg-iconGray rounded-full flex items-center justify-center">
@@ -151,6 +165,7 @@ TEL;TYPE=CELL:+1-587-429-3092
 TEL;TYPE=CELL:+1-647-721-6591
 EMAIL;TYPE=INTERNET:Manjit.Singh@royallepage.ca
 ADR;TYPE=WORK:;;Unit 102\\, 35 McTavish Pl NE;Calgary;AB;T2E 7J7;Canada
+URL;TYPE=WORK:https://manjit-singh.royallepage.ca/
 URL:https://hexanestrealty.ca
 URL;TYPE=instagram:https://instagram.com/manjitsinghrealtor
 URL;TYPE=linktree:https://linktr.ee/Hexanestrealty
@@ -1994,10 +2009,11 @@ END:VCARD`;
         tel: ["+15874293092", "+16477216591"],
         email: ["Manjit.Singh@royallepage.ca"],
         address: ["Unit 102, 35 McTavish Pl NE, Calgary AB"],
-        url: ["https://hexanestrealty.ca"]
+        url: ["https://manjit-singh.royallepage.ca/","https://hexanestrealty.ca"]
       };
       if (!await saveNative(card)) downloadVCF();
     });
   </script>
 </body>
 </html>
+
